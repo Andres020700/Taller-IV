@@ -1,0 +1,45 @@
+body {
+  background-color: #f4f6fb;
+}
+
+.titulo-taller {
+  font-weight: 700;
+  color: #1f3a93;
+  letter-spacing: 1px;
+}
+
+.health-section {
+  display: flex;
+  justify-content: center;
+}
+
+.health-box {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 24px;
+  background-color: #e6f9ee;
+  border-left: 6px solid #1e9e5a;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.health-box h4 {
+  color: #14733f;
+  margin-bottom: 8px;
+}
+
+.health-box p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1b4d33;
+}
+
+.health-box.health-error {
+  background-color: #fdecea;
+  border-left-color: #d93025;
+}
+
+.health-box.health-error h4,
+.health-box.health-error p {
+  color: #8a1c14;
+}
