@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Endpoint 4: estado del API
+// estado del API
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
@@ -16,8 +16,7 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-// Endpoint 5: información de los integrantes
-// IMPORTANTE: reemplazar con los datos reales de cada integrante
+// información de los integrantes
 app.get("/api/info", (req, res) => {
   res.json({
     status: "ok",
